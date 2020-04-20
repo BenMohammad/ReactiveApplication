@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ReactiveApplication</string>
+    <string name="example">
+
+    T key;\n
+    int appearances;\n
+    Node(T key, int appearances) {\n
+        \t \tif (this.appearances &amp;lt ) {\n
+            \t\t \t\tthrow new IllegalArgumentException();\n
+        \t \t}\n
+        \t \tthis.key = key;\n
+        \t \tthis.appearances = appearances;\n
+    }\n
+    @Override\n
+    public int compareTo(Node node) {\n
+        \t\treturn key.compareTo(node.key);\n
+
+</string>
+</resources>
