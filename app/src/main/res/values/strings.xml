@@ -16,4 +16,5 @@
         \t\treturn key.compareTo(node.key);\n
 
 </string>
+    <string name="update_user">Update User</string>
 </resources>

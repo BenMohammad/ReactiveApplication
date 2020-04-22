@@ -1,4 +1,4 @@
-package com.reactiveapplication.persistence;
+package com.reactiveapplication.observability.persistence;
 
 
 import androidx.room.Dao;

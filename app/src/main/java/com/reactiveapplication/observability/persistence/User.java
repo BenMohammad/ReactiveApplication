@@ -1,4 +1,4 @@
-package com.reactiveapplication.persistence;
+package com.reactiveapplication.observability.persistence;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -7,8 +7,6 @@ import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 import java.util.UUID;
-
-import io.reactivex.internal.util.SuppressAnimalSniffer;
 
 @Entity(tableName = "users")
 public class User {
@@ -20,6 +18,8 @@ public class User {
 
     @ColumnInfo(name = "username")
     private String mUserName;
+
+    public User() {}
 
     @Ignore
     public User(String userName) {
